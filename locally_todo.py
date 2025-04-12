@@ -1,9 +1,10 @@
+#Locally_ToDo
 
 
 
 
 
-
+#Check List
 #Things to work on
 #Local環境でシェアできるToDoList
 #たとえば、同じWi-Fiに接続している、またはユニークIDを生成して、そのIDを共有するとToDoListの中身がシェアされるイメージ
@@ -50,3 +51,4 @@
 #	•	👥 同時アクセスに備えたリアルタイム更新（Socket.IO）
 #	•	🔒 編集権限のパスコード（読み取り専用モードなど）
 #	•	☁️ 最終的にクラウド化（HerokuやRenderにデプロイ）
+#	•	☁️ iOS App化とかもできる？
