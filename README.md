@@ -1,4 +1,4 @@
-## Welcome to Locally ToDo!
+# Welcome to Locally ToDo!
 This app is intended to be used among a small group/team.
 Have you thought something like--
 "I wish I could share my tasks with my members..."
