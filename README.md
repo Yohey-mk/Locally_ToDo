@@ -6,3 +6,6 @@ Have you thought something like--
 "What I want is quick and easy to check tasks of my mates have."  
 Locally ToDo will solve this!  
 # Here's how Locally ToDo works...
+
+# notes
+future add-on idea: add lock button to switch alway on screen vs off. 
