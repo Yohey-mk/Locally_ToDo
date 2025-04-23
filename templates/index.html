@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List</title>
+</head>
+<body>
+  <h1>📝 ToDo List</h1>
+
+  <form action="/add" method="post">
+    <input type="text" name="task" placeholder="タスクを入力" required>
+    <button type="submit">追加</button>
+  </form>
+
+  <ul>
+    {% for task in todos %}
+      <li>
+        {{ task }}
+        <a href="/delete/{{ loop.index0 }}">❌ 削除</a>
+      </li>
+    {% else %}
+      <p>タスクがありません</p>
+    {% endfor %}
+  </ul>
+</body>
+</html>
